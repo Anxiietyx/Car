@@ -1,0 +1,6 @@
+{
+  "name": "glossdetail.",
+  "description": "Starlink-inspired minimalist car detailing catalog for glossdetail. Featuring our premium Coating-Safe washes, Signature protection packages, and custom size-based booking appointment workflow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
