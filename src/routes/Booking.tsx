@@ -413,9 +413,9 @@ export default function Booking() {
                   <label className="text-[10px] text-gray-500 tracking-widest uppercase font-medium block mb-2">PREFERRED WORK SHIFT</label>
                   <div className="grid grid-cols-3 gap-2">
                     {[
-                      { id: 'morning', time: '08:00 AM' },
-                      { id: 'midday', time: '12:00 PM' },
-                      { id: 'afternoon', time: '03:00 PM' },
+                      { id: 'morning', time: '09:00 AM - 12:00 PM' },
+                      { id: 'midday', time: '12:00 PM - 03:00 PM' },
+                      { id: 'afternoon', time: '03:00 PM - 5:00 PM' },
                     ].map(slot => (
                       <button
                         key={slot.id}
@@ -439,12 +439,12 @@ export default function Booking() {
             <div className="border border-[#1a1a1f] bg-[#060608] p-6 md:p-8 space-y-6" id="form-step-5">
               <div className="flex items-center space-x-3 border-b border-[#121215] pb-4">
                 <span className="font-sans font-bold text-sm bg-white text-black px-2 py-0.5">05</span>
-                <h3 className="font-sans text-sm tracking-widest uppercase text-white font-semibold">CUSTOMER DIRECT CONTACT</h3>
+                <h3 className="font-sans text-sm tracking-widest uppercase text-white font-semibold">YOUR CONTACT</h3>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label className="text-[10px] text-gray-500 tracking-widest uppercase font-medium block mb-2">FULL LEGAL NAME</label>
+                  <label className="text-[10px] text-gray-500 tracking-widest uppercase font-medium block mb-2">FULL NAME</label>
                   <input 
                     type="text"
                     required
@@ -474,7 +474,7 @@ export default function Booking() {
                   <input 
                     type="tel"
                     required
-                    placeholder="+1 (555) 000-0000"
+                    placeholder="013 456 7890"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     className="w-full bg-black border border-[#1a1a1f] focus:border-white hover:border-white/40 text-white px-4 py-3 text-xs tracking-wider uppercase font-mono rounded-none focus:outline-none"
@@ -577,11 +577,11 @@ export default function Booking() {
                   onClick={handleFinalizeBooking}
                   className="w-full bg-white text-black text-xs font-bold font-mono py-4 hover:bg-gray-200 transition-all uppercase tracking-[0.16em]"
                 >
-                  FORMULATE QUEUE ORDER
+                  SUBMIT 
                 </button>
 
                 <p className="text-[9px] text-gray-500 uppercase text-center tracking-normal leading-relaxed">
-                  No payment is authorized inside the digital configuration matrix. Submission locks our HEPA cell schedule for your selected hours.
+                  There is no payment involved. Its just to let us know ur interested.
                 </p>
               </div>
 

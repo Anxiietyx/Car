@@ -30,15 +30,6 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-black/70" />
         </div>
 
-        {/* Top Floating Specs Text */}
-        <motion.div 
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.2, delay: 0.2 }}
-          className="z-10 font-mono text-[9px] md:text-xs tracking-[0.25em] text-gray-400 mt-8"
-        >
-          <span>GLOSSDETAIL CORE // PREMIUM CARPRO & KOCH CHEMIE FORMULATIONS</span>
-        </motion.div>
 
         {/* Center Logo & Taglines */}
         <div className="z-10 max-w-4xl flex flex-col items-center">
@@ -100,7 +91,7 @@ export default function Home() {
               to="/services"
               className="bg-transparent border border-white text-white font-mono text-xs tracking-widest px-8 py-3.5 hover:bg-white hover:text-black transition-all text-center uppercase"
             >
-              COMPARE SERVICES
+             SERVICES
             </Link>
           </motion.div>
 

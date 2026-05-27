@@ -114,7 +114,7 @@ export default function Navbar() {
               className="text-white hover:text-gray-300 text-sm font-mono tracking-[0.2em] pb-3 border-b border-[#111]"
               onClick={() => setIsOpen(false)}
             >
-              SERVICE PACKAGES
+              SERVICES
             </Link>
             <Link
               to="/about"
