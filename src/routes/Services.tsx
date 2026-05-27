@@ -54,18 +54,10 @@ export default function Services() {
                       {pkg.tagline}
                     </p>
 
-                    {/* Products Used Tagging */}
-                    <div className="mb-4 bg-zinc-950 p-3 border border-white/5">
-                      <span className="text-[9px] text-gray-500 tracking-wider block mb-1 uppercase">PRODUCTS EMPLOYED:</span>
-                      <span className="text-xs text-white uppercase tracking-wider font-semibold block">
-                        {pkg.products.join(', ')}
-                      </span>
-                    </div>
-
                     <div className="border-t border-[#121215] pt-4 mb-6">
-                      <span className="text-[10px] text-gray-500 tracking-wider block mb-3 uppercase">CORE INCLUDED STEPS:</span>
+                      <span className="text-[10px] text-gray-500 tracking-wider block mb-3 uppercase">STEPS INCLUDED:</span>
                       <ul className="space-y-2">
-                        {pkg.benefits.slice(0, 5).map((benefit, bIdx) => (
+                        {pkg.benefits.map((benefit, bIdx) => (
                           <li key={bIdx} className="flex items-start text-[11px] text-gray-300 tracking-wide leading-relaxed">
                             <Check className="h-3.5 w-3.5 text-white shrink-0 mr-2.5 mt-0.5" />
                             <span>{benefit}</span>

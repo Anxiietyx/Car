@@ -31,7 +31,7 @@ export const PACKAGES: DetailPackage[] = [
   {
     id: 'signature-wash',
     name: 'Signature Wash & Protect',
-    tagline: 'Intensive mechanical & chemical decontamination with durable hydrophobic paint protection.',
+    tagline: 'The Wash and Wax Process. Here’s the general breakdown of what the exterior detail process looks like:',
     prices: {
       small: 60,
       medium: 80,
@@ -39,12 +39,12 @@ export const PACKAGES: DetailPackage[] = [
     },
     duration: '2 - 3 Hours',
     benefits: [
-      'Advanced multi-stage pre-wash and high-density snow foam spray',
-      'Iron fallout removal and mechanical clay bar treatment for silky clearcoat',
-      'Deep chemical tire and wheel caliper cleaning & brake dust removal',
-      'Premium liquid silica hybrid sealant applied for deep gloss and hydrophobic water-beading',
-      'Meticulous door jamb, trunk shut, and fuel door detailing and conditioning',
-      'Tire coating application for premium satin aesthetic look'
+      'Clean wheels and tires: A proper detail starts at the wheels. Using a variety of brushes, we spray our cleaner, scrub, and rinse to remove the grime and brake dust.',
+      'Thorough hand wash: Next, we wash the vehicle from top to bottom including cleaning the door jambs, gas cap, and remove bugs off front end.',
+      'Clay bar treatment: This clay bar step is to remove stuck on dirt and debris that normal washing can’t remove (your paint will feel really smooth).',
+      'Apply a layer of wax or sealant: Once the paint is prepped, we can apply a quality wax or sealant by machine to add that layer of shine and protection.',
+      'Dress tires: To put some of the last finishing touches, we’ll dress the tires with a water-based dressing to make them shine (they’ll be dry to the touch once applied. No sticky greasy dressing here).',
+      'Clean exterior glass and windows: Finally, we’ll clean your exterior glass and windows to give you crystal clear vision.'
     ],
     products: ['Bilt Hamber', 'CarPro', 'Koch Chemie', 'Turtle Wax'],
     specs: {
